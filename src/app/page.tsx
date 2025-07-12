@@ -151,7 +151,7 @@ export default function HomePage() {
                   <div className="space-y-3 mb-4">
                     <div className="flex items-center gap-2">
                       <CheckCircle className="h-4 w-4 text-green-500 flex-shrink-0" />
-                      <span className="text-sm">Vanjsko pranje s aktivnom pjenom</span>
+                      <span className="text-sm">Vanjsko pranje</span>
                     </div>
                     <div className="flex items-center gap-2">
                       <CheckCircle className="h-4 w-4 text-green-500 flex-shrink-0" />
@@ -167,7 +167,7 @@ export default function HomePage() {
                     </div>
                     <div className="flex items-center gap-2">
                       <CheckCircle className="h-4 w-4 text-green-500 flex-shrink-0" />
-                      <span className="text-sm">Pranje motora i podna zaštita</span>
+                      <span className="text-sm">Pranje motora i podno pranje</span>
                     </div>
                   </div>
                 </CardContent>
