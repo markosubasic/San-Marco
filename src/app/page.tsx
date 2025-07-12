@@ -128,7 +128,7 @@ export default function HomePage() {
               <Card className="overflow-hidden">
                 <div className="h-48 sm:h-64 bg-gradient-to-br from-blue-500 to-blue-600 relative">
                   <Image
-                    src="images/car-wash-main.png"
+                    src="images/car-wash-main.jpg"
                     alt="Professional car wash"
                     fill
                     className="object-cover opacity-90"
@@ -177,7 +177,7 @@ export default function HomePage() {
               <Card className="overflow-hidden">
                 <div className="h-48 sm:h-64 bg-gradient-to-br from-amber-500 to-orange-500 relative">
                   <img
-                    src="images/rug-cleaning-main"
+                    src="images/rug-cleaning-main.jpg"
                     alt="Professional rug cleaning"
                     className="h-full w-full object-cover opacity-90"
                   />
