@@ -128,7 +128,7 @@ export default function HomePage() {
               <Card className="overflow-hidden">
                 <div className="h-48 sm:h-64 bg-gradient-to-br from-blue-500 to-blue-600 relative">
                   <Image
-                    src="public/images/car-wash-main.png"
+                    src="images/car-wash-main.png"
                     alt="Professional car wash"
                     fill
                     className="object-cover opacity-90"
@@ -177,7 +177,7 @@ export default function HomePage() {
               <Card className="overflow-hidden">
                 <div className="h-48 sm:h-64 bg-gradient-to-br from-amber-500 to-orange-500 relative">
                   <img
-                    src="public/images/rug-cleaning-main"
+                    src="images/rug-cleaning-main"
                     alt="Professional rug cleaning"
                     className="h-full w-full object-cover opacity-90"
                   />
@@ -278,12 +278,12 @@ export default function HomePage() {
               </div>
               <div className="grid grid-cols-2 gap-4">
                 <img
-                  src="public/images/car-wash-about.jpg"
+                  src="images/car-wash-about.jpg"
                   alt="Professional car washing"
                   className="rounded-lg shadow-lg w-full h-48 object-cover"
                 />
                 <img
-                  src="public/images/rug-cleaning-about.webp"
+                  src="images/rug-cleaning-about.webp"
                   alt="Professional rug cleaning facility"
                   className="rounded-lg shadow-lg mt-8 w-full h-48 object-cover"
                 />
