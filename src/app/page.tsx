@@ -4,6 +4,7 @@ import { Badge } from "@/components/ui/badge"
 import { Separator } from "@/components/ui/separator"
 import { Sheet, SheetContent, SheetTrigger } from "@/components/ui/sheet"
 import { Phone, MapPin, Mail, Clock, Car, Home, Shield, Sparkles, CheckCircle, Menu } from "lucide-react"
+import Image from "next/image"
 
 export default function HomePage() {
   return (
@@ -126,10 +127,11 @@ export default function HomePage() {
               {/* Car Wash Services */}
               <Card className="overflow-hidden">
                 <div className="h-48 sm:h-64 bg-gradient-to-br from-blue-500 to-blue-600 relative">
-                  <img
-                    src="https://surfnshine.com/wp-content/uploads/2023/09/benefits-of-professional-car-wash-service-1024x576.jpg"
+                  <Image
+                    src="public/images/car-wash-main.png"
                     alt="Professional car wash"
-                    className="h-full w-full object-cover opacity-90"
+                    fill
+                    className="object-cover opacity-90"
                   />
                   <div className="absolute inset-0 bg-black/20" />
                   <div className="absolute top-4 left-4">
@@ -175,7 +177,7 @@ export default function HomePage() {
               <Card className="overflow-hidden">
                 <div className="h-48 sm:h-64 bg-gradient-to-br from-amber-500 to-orange-500 relative">
                   <img
-                    src="https://cdn.prod.website-files.com/663251ed67bdbfe17bfb48fb/66325db79e9398cb87c2e9dd_hero-home-royal-carpet.webp"
+                    src="public/images/rug-cleaning-main"
                     alt="Professional rug cleaning"
                     className="h-full w-full object-cover opacity-90"
                   />
@@ -276,12 +278,12 @@ export default function HomePage() {
               </div>
               <div className="grid grid-cols-2 gap-4">
                 <img
-                  src="https://img.freepik.com/premium-photo/professional-car-wash-photo-beautiful-car-washing-service-high-quality-images_1241023-3050.jpg"
+                  src="public/images/car-wash-about.jpg"
                   alt="Professional car washing"
                   className="rounded-lg shadow-lg w-full h-48 object-cover"
                 />
                 <img
-                  src="https://tehnix.pro/wp-content/uploads/2020/11/automatske-masine-za-pranje-tepiha-6.jpg"
+                  src="public/images/rug-cleaning-about.webp"
                   alt="Professional rug cleaning facility"
                   className="rounded-lg shadow-lg mt-8 w-full h-48 object-cover"
                 />
