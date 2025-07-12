@@ -281,7 +281,7 @@ export default function HomePage() {
                   className="rounded-lg shadow-lg w-full h-48 object-cover"
                 />
                 <img
-                  src="https://www.teasdalefenton.com/images/rug-cleaning/professional-rug-cleaning.jpg"
+                  src="https://tehnix.pro/wp-content/uploads/2020/11/automatske-masine-za-pranje-tepiha-6.jpg"
                   alt="Professional rug cleaning facility"
                   className="rounded-lg shadow-lg mt-8 w-full h-48 object-cover"
                 />
